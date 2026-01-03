@@ -26,9 +26,16 @@
    - Country Code Domain (ccTLDs)
    - Inverse (Reverse) Domain
 6. [Domain Name Server](#domain-name-server)
-7. [DNS Loolup(DNS Resolution)](#dns-lookup)
+7. [DNS Lookup (DNS Resolution)](#dns-lookup-dns-resolution)
+   - DNS Resolver
+   - Recursive Query
+   - Iterative Query
+   - Non-Recursive Query
 8. [Types of DNS Queries](#types-of-dns-queries)
-9. [DNS Caching](#DNS-caching)
+   - Recursive Queries
+   - Iterative Query
+   - Non-Recursive Query
+9. [DNS Caching](#dns-caching)
 10. [Time-To-Live(TTL)](time-to-live)
 11. [DNS Security](#dns-security)
 12. [DNS Security Extensions (DNSSEC)](dnssec)
@@ -109,3 +116,42 @@ DNS Helps Manage Different Types of Domain to Organize the Large Number of Websi
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=Domain+Name+Server!)
 
 ## Domain Name Server 
+
+When a User Request a Website the Client Machine Sends a Query to the Local Server does not have the IP Address in it's Caches it Forwords the Request to the Root Name Server.
+
+The Root Name Server does not Usually Store the exact IP Address of the Website but it Knowns which Top-Level Domain (TLD) Server Should be Queried. In Some Case it may Contain Limited Hostname to IP Query Mappings.
+
+The TLD Server (Such as .com, .org, etc...) Known the Location of the Authoritative Name Server for the Request Domain and Direct the Query to it.
+
+The Authoritative Name Server Contain the Actual DNS Records and Returns the Correct IP Address. This IP Address is Sent Back to the Local Name Server Which then Delivers it to the Client Machine Allowing the Website to Load.
+
+---
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DNS+LOOKUP+(DNS+RESOLUTION)!)
+
+## DNS Lookup (DNS Resolution)
+
+DNS Lookup also known as DNS Resolution, is the Process of Converting a Human Readable Domain Name into it's Corresponding IP Address Enabling Computers to Locate Website on the Internet.
+
+- **DNS Resolver :-** The DNS Resolver also called a DNS Client Initiates the Lookup Process on Behalf of the User.
+
+- **Recursive Query :-** In a Recursive Query the Resolver takes full Responsibility for Finding the IP Address by Querying Multiple DNS Server Unit the Correct Answer Obtained.
+
+- **Iterative Query :-** Resolver ask Servers for the Best Answer Avilable.
+
+- **Non-Recursive Query :-** In Non-Recursive Query the Resolver queries a DNS Server that already has the Requested Records Stored in it's Caches and immediately Returns the IP Address.
+
+## Types of DNS Queries 
+
+- **Recursive Queries :-** In a Recursive queries the DNS Client Experts the DNS Server to Provide a Complete Answer. if the Server Cannot find the Request Records it Must Return Either the Correct IP Address or an Error Messages. The Server takes full Responsibility for Resolving the Query.
+
+- **Iterative Query :-** In an Iterative Query the DNS Client Request the best Possible Answer for the DNS Server that may have more information.
+
+- **Non-Recursive Query :-** A Non-Recursive Query Occurs When the DNS Resolve Queries a DNS Server that already has the Required Records Either Because it is Authoritative for the Domain or Because the Records is Stored in it's Cache. The Server Return the Result Immediately.
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DNS+CACHING!)
+
+## DNS Caching 
+
+DNS Caching is a Machanism in which DNS Records 
