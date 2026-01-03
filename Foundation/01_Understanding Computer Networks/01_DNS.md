@@ -1,22 +1,12 @@
-<br>
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2BDDC6E6&width=435&lines=UNDERSTANDING+COMPUTER+NETWORKS!)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=UNDERSTAND+COMPUTER+NETWORKS!)](https://git.io/typing-svg)
 ---
-
-</div><br><br>
-
-<br>
-<a id="Domain+Name+System+(DNS)!"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=Domain+Name+System+(DNS)!" width="450"/>
-
-<br>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=DOMAIN+NAME+SYSTEM!)](https://git.io/typing-svg)
+---
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2BDDC6E6&width=435&lines=INDEX!)
 ---
 
-# Index
-
-1. [Domain Name System (DNS)](#domain-name-system-dns)
+1. [Domain Name System (DNS)](#Domain+Name+System+(DNS)!)
 2. [Function of DNS](#function-of-dns)
 3. [Working of DNS](#working-of-dns)
    - [User Inputs](#user-inputs)
@@ -42,3 +32,7 @@
 14. [Common Use of Reverse DNS Lookup](#use-of-reverse-dns)
 15. [DNS Record Types](#dns-record-types)
 16. [DNS Attack](#dns-attack)
+
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7CB7D&width=440&height=51&lines=Domain+Name+System+(DNS)!)]
+---
