@@ -35,20 +35,27 @@
 16. [DNS Attack](#dns-attack)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7CB7D&width=440&height=51&lines=Domain+Name+System+(DNS)!)](#domain-name-system-dns)
----
+
 ## Domain Name System (DNS)
 
 Domain Name System (DNS) is a Hierarchical and Distributed Mapping System Used on the Internet to Translate Human Readable Domain Names into IP Addresses Allowing Users to Access Website Easily.
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F6F715&width=435&lines=FUNCTION+OF+DNS!)
----
+
 ## Function of DNS
+
 - Convert Domain Names (e.g.,www.example.com) into IP Address.
 - Eliminates the Needs for Users to Remember Numerical IP Addresses.
 - Uses Root Server, Top-Level Domain (TLD) Servers, and Authoritative DNS Server to Resolve Domain Names.
 - Support Caching Which Improves Speed and Reduces Networking Traffic.
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=WORKING+OF+DNS!)](#working-of-dns)
----
+
 ## Working of DNS
 
+The Domain Name System (DNS) Work Through a Series of Steps that Allows Users to Access Website by Typing a Domain Name Instead of an IP Address.
+
+- **User Inputs :-** The User Enter a Website Adress (e.g., <www.example.com>) into the Web Browsers.
+- **Local Cache Check :-** The Browser First Check it's Local Cache to See if the IP Address for the Domain is Alrady Stored. if Found it Uses the Cached IP Address and No Further DNS Query is Needed.
+- **DNS Resolver Query :-** if the IP Address is not Found in the Local Caches the Computer Sends a Request to a DNS Resolver Usually Provided by the Internet Services Provider (ISP).
+- **Root DNS Server :-**
