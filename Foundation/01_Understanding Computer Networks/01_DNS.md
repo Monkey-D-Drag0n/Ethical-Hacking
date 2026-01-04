@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=UNDERSTAND+COMPUTER+NETWORKS!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&width=530&lines=UNDERSTAND+COMPUTER+NETWORKS!)
 ---
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71918&width=435&lines=DOMAIN+NAME+SYSTEM+(DBMS)!)
@@ -115,7 +115,7 @@ DNS Helps Manage Different Types of Domain to Organize the Large Number of Websi
 - **Inverse (Reverse) Domain :-** Inverse Domain are Used for Reverse DNS Lookups which map IP Addresses back to Domain Names this is useful for Network Diagnostics and Security Helping Verify the Legitimacy of Networks Traffic.
 
 ---
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=Domain+Name+Server!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DOMAIN+NAME+SERVER!)
 
 ## Domain Name Server 
 
@@ -234,3 +234,16 @@ common use include domain ownership verification and email security protocols li
 
 DNS Attack exploit vulnerabilities in the DNS protocol to redirect or intercept traffic. These attack can lead to unauthorized access data breaches and disruption of services.
 
+### Common Types of DNS Attack
+
+- **DNS Spoofing / DNS Cache Poisoning:-** Attackers inject false DNS records into a DNS resolver cache causing user's to be redirected to malicious website instead of iegitimate one.
+
+- **DNS Hijacking:-** The attacker changes DNS Setting on a devices router or server so DNS queries are resolved by malicious DNS Server.
+
+- **Denial of Service (DoS):-** A DoS attack happens when one attacker send large number of requests to server website or networks to overload it making it slow or completely unavailable to real user's.
+
+- **Distributed Denial of Service (DDoS):-** DDoS attack is similar to DoS but the attack comes from many devices at the same time often from a botnet (infected computer or IoT devices).
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrainMono&size=50&pause=1000&color=F158A4&width=500&height=100&lines=COMPLETED!)
