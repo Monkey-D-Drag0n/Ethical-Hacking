@@ -38,9 +38,11 @@
 9. [DNS Caching](#dns-caching)
 10. [Time-To-Live(TTL)](time-to-live)
 11. [DNS Security](#dns-security)
-12. [DNS Security Extensions (DNSSEC)](dnssec)
-13. [Reverse DNS Lookup](#reverse)
-14. [Common Use of Reverse DNS Lookup](#use-of-reverse-dns)
+12. [DNS Security Extensions (DNSSEC)](dns-security-extension)
+13. [Reverse DNS Lookup](#reverse-dns-lookup)
+14. [Common Use of Reverse DNS Lookup](#common-use-of-reverse-dns-lookup)
+    - Network Diagnostic
+    - Email Sceurity
 15. [DNS Record Types](#dns-record-types)
 16. [DNS Attack](#dns-attack)
 
@@ -154,4 +156,81 @@ DNS Lookup also known as DNS Resolution, is the Process of Converting a Human Re
 
 ## DNS Caching 
 
-DNS Caching is a Machanism in which DNS Records 
+DNS Caching is a Machanism in which DNS Records are Stored Temporarily at Verious Level (Browser, Os, or DNS Resolver) to Avoide Repeatedly Querying External DNS Server for the same domain.
+This improve browsing speed and reduces network traffic.
+
+## Time-To-Live (TTL) 
+
+TTL is the amount of the time a DNS Record remains stored in the cache before it expires. Once the TTL value expires the cached records is deleted and a new DNS query is made to obtain updated information. The TTL value is set by the authoritative DNS server and can be adjusted depending on how frequently the domain IP address changes.
+
+
+> If the TTL for www.example.com is 36000 seconds the DNS records will be cached for 1 hour after one hour the cache
+> expires and a fresh DNS lookup is required to retrive the IP address again.
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DNS+SECURITY!)
+
+## DNS Security
+
+Althorugh DNS play a vital (Important) role in internet communication it is vulnerable to certain security threats One common threat is DNS cache poisoning where attackers insert false DNS records into a cache redirecting users to malicious or fraudulent website.
+
+## DNS Security Extension (DNSSEC)
+
+DNSSEC is a security protocol designed to protect DNS from such attacks. It works by adding cryptographic digital signatures to DNS records.
+
+* Provides Authentication of DNS data.
+* Ensures the integrity of DNS Responses.
+* Allows the DNS resolvers to verify the DNS information has not been altered or trapered with.
+* Helps Prevent attacks like DNS cache poisoning and spoofing.
+
+> In Simple terms DNSSEC ensures that users receive accurate and trustworthy DNS information when accessing website.
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=REVERSE+DNS+LOOKUP!)
+
+## Reverse DNS Lookup 
+
+Reverse DNS Lookup is the process of mapping an IP address back to it's corresponding domain name which opposite of a standard DNS lookup (Domain name -> IP address).
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=COMMON+USE+OF+REVERSE+DNS+LOOKUP!)
+
+## Common Use of Reverse DNS Lookup
+
+- **Network Diagnostic :-** System administrators use reverse DNS to identify the domian name associated with a specific IP address helping trace the sources of network traffic.
+
+- **Email Security :-** Many Email Server perform reverse DNS lookup to verify that incoming emails come from legitimate sources helping prevent spam and email fraud.
+
+> In Short, Reverse DNS add an extra layer of verification for network management and security.
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DNS+RECORD+TYPES+!)
+
+## DNS Records Types
+
+- **A Record (Address Records) :-** maps a domain name to an IPv4 address.
+e.g., www.example.com -> 93.184.216.34
+
+This is the most common record pointing a domain to its website.
+
+- **CNAME Records (Cononical Name Records):-** Creates an alias from one domain to another
+e.g, www.example.com -> example.com
+
+- **MX (Mail Exchange Records):-** The MX records define which mail server are responsible for receiving emails for a domain. This is crucial for setting up email services.
+
+- **TXT Record (Text Record):-** Stores text-based information
+common use include domain ownership verification and email security protocols like SPF (Send Policy Framework) and DKIM
+(DomainKey Identified Mail).
+
+---
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=5BF71A&width=435&lines=DNS+ATTACK!)
+
+## DNS Attack 
+
+DNS Attack exploit vulnerabilities in the DNS protocol to redirect or intercept traffic. These attack can lead to unauthorized access data breaches and disruption of services.
+
