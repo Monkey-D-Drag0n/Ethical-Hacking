@@ -43,8 +43,11 @@
 14. [Common Use of Reverse DNS Lookup](#common-use-of-reverse-dns-lookup)
     - Network Diagnostic
     - Email Sceurity
-15. [DNS Record Types](#dns-record-types)
+15. [DNS Record Types](#dns-records-types)
 16. [DNS Attack](#dns-attack)
+17. [Common Types of DNS Attack](common-types-of-dns-attack)
+
+---
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7CB7D&width=440&height=51&lines=Domain+Name+System+(DNS)!)](#domain-name-system-dns)
 
